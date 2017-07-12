@@ -20,7 +20,21 @@ html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
 
 .navbar-child{
   padding: 0 10px;
-  
+}
+
+/*JOB LISTINGS STYLES*/
+.jobs-row {
+  display: flex;
+  flex-direction: row;
+}
+.jobs-main {
+  width: 80%;
+}
+.jobs-side {
+  width: 20%;
+}
+
+
 /*FOOTER STYLES*/
 footer {
 	display: flex;
