@@ -1,12 +1,18 @@
 html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
 }
-
+/*CHANGE BODY COLOR BACK TO WHITE WHEN FINISHED*/
+body{
+  background-color: lightcoral;
+}
 .main-container{
   width: 90%;
-  background-color: lightcoral;
+  background-color: lightgray;
   margin: 0 auto;
 }
 /* Navigation Styles */
+nav{
+  background-color: white;
+}
 .navbar-flex-container{
   display: flex;
   list-style-type: none;
@@ -14,6 +20,7 @@ html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
   height:60px;
   align-items: center;
 }
+/*LOGO nav*/
 .item-1{
   margin-right: auto;
 }
@@ -43,6 +50,21 @@ html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
 }
 .jobs-ul {
   list-style-type: none;
+}
+
+nav a:visited, a:link{
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+nav a:active{
+    color: black;
+    text-decoration: underline;
 }
 
 /*FOOTER STYLES*/
