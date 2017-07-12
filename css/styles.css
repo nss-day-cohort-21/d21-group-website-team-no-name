@@ -1,0 +1,8 @@
+html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
+}
+
+.main-container{
+  width: 90%;
+  background-color: lightcoral;
+  margin: 0 auto;
+}
