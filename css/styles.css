@@ -73,6 +73,24 @@ footer {
 	flex-direction: row;
 }
 
-i {
-	display: inline;
+.copyright {
+  width: 50%;
+}
+
+.social {
+  width: 50%;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer h6 {
+  font-size: 1em;
+  margin-left: 2em;
+}
+
+.social img {
+  width: 40%;
 }
