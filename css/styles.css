@@ -36,7 +36,7 @@ nav{
   margin: 2em;
   border: 5px;
   border-radius: 15px;
-  background-color: #f7bbbb;
+  background-color: white;
 }
 
 #address-container{
@@ -58,6 +58,9 @@ nav{
   #address-container {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
+  }
+  #map {
+    width: 100%;
   }
 }
   
