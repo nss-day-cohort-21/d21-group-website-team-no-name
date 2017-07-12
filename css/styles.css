@@ -6,3 +6,20 @@ html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
   background-color: lightcoral;
   margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+/*FOOTER STYLES*/
+footer {
+	display: flex;
+	flex-direction: row;
+}
+
+i {
+	display: inline;
+}
