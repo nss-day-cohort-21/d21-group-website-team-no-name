@@ -6,7 +6,7 @@ html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
   background-color: lightcoral;
   margin: 0 auto;
 }
-
+/* Navigation Styles */
 .navbar-flex-container{
   display: flex;
   list-style-type: none;
@@ -20,4 +20,13 @@ html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
 
 .navbar-child{
   padding: 0 10px;
+  
+/*FOOTER STYLES*/
+footer {
+	display: flex;
+	flex-direction: row;
+}
+
+i {
+	display: inline;
 }
