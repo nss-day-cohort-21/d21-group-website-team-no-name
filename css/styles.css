@@ -76,3 +76,43 @@ footer {
 i {
 	display: inline;
 }
+
+
+/**** EMPLOYEE-LISTING STYLES********************************************************************/
+
+a:hover {
+
+  opacity: .5;
+}
+
+
+.emp-h1,  {
+
+  display: flex;
+  justify-content: space-around;
+}
+.emp-list-flex-container {
+
+  padding-left: 40%;
+  /*flex-basis: 30%;*/
+  /*align-items: center;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+}
+
+.emp-name, .person-title, .person-email {
+  padding-left: 8%;
+}
+
+.slack-emp-list-img {
+
+  border-radius: 70%;
+  padding: 2% 0%;
+  width:40%;
+
+
+}
+
+
+/***********************************************************************************************/
