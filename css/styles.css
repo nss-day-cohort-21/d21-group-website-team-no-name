@@ -34,6 +34,7 @@ nav{
   display: flex;
   flex-direction: row;
 }
+
 .jobs-col {
   margin: 2em;
 }
@@ -41,13 +42,16 @@ nav{
 .jobs-main {
   width: 80%;
 }
+
 .jobs-side {
   width: 20%;
 }
+
 .jobs-img {
   margin: 1em;
   width: 50%;
 }
+
 .jobs-ul {
   list-style-type: none;
 }
