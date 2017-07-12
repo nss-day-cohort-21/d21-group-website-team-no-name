@@ -19,6 +19,7 @@ nav{
   justify-content: space-around;
   height:60px;
   align-items: center;
+  margin: 0;
 }
 /*LOGO nav*/
 .item-1{
@@ -27,6 +28,34 @@ nav{
 
 .navbar-child{
   padding: 0 10px;
+}
+
+/*  INDEX PAGE STYLES */
+
+.gem-info-container{
+  background-image: url("../images/diamond2.jpg");
+  background-size: 100%;
+  height: 495px;
+  display: table;
+}
+
+.gem-info{ 
+  width: 55%;
+  float: right;
+  padding: 40px 40px 0; 
+  color: white;
+  line-height: 1.5em;
+  margin-top: 50px;
+}
+
+.section-article{
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+.section-article h3{
+  padding-bottom: 10px;
 }
 
 /*JOB LISTINGS STYLES*/
