@@ -20,6 +20,39 @@ html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
 
 .navbar-child{
   padding: 0 10px;
+}
+
+/*History Styling*/
+
+#company-history{
+  padding: 2em;
+  margin: 2em;
+  border: 5px;
+  border-radius: 15px;
+  background-color: #f7bbbb;
+}
+
+#address-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#map {
+   width: 60%;
+   height: 400px;
+   background-color: grey;
+   border: none;
+   border-radius: 25px;
+ }
+
+ /* Smaller screens stack in collumns */
+@media all and (max-width: 700px) {
+  #address-container {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
   
 /*FOOTER STYLES*/
 footer {
