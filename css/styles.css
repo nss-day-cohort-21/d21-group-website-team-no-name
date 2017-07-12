@@ -6,14 +6,21 @@ html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
   background-color: lightcoral;
   margin: 0 auto;
 }
+/* Navigation Styles */
+.navbar-flex-container{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  height:60px;
+  align-items: center;
+}
+.item-1{
+  margin-right: auto;
+}
 
-
-
-
-
-
-
-
+.navbar-child{
+  padding: 0 10px;
+  
 /*FOOTER STYLES*/
 footer {
 	display: flex;
