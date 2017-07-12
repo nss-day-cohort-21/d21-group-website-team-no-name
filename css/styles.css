@@ -2,8 +2,8 @@ html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
 }
 /*CHANGE BODY COLOR BACK TO WHITE WHEN FINISHED*/
 body{
-/*  background-color: lightcoral;
-*/}
+  background-color: lightcoral;
+}
 .main-container{
   width: 90%;
   background-color: lightgray;
@@ -86,22 +86,11 @@ footer ul {
   list-style-type: none;
 }
 
-.social img {
-  width: 20%;
+footer h6 {
+  font-size: 1em;
+  margin-left: 2em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.social img {
+  width: 40%;
+}
