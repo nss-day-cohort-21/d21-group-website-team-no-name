@@ -29,6 +29,29 @@ nav{
   padding: 0 10px;
 }
 
+/*JOB LISTINGS STYLES*/
+.jobs-row {
+  display: flex;
+  flex-direction: row;
+}
+.jobs-col {
+  margin: 2em;
+}
+
+.jobs-main {
+  width: 80%;
+}
+.jobs-side {
+  width: 20%;
+}
+.jobs-img {
+  margin: 1em;
+  width: 50%;
+}
+.jobs-ul {
+  list-style-type: none;
+}
+
 nav a:visited, a:link{
   text-decoration: none;
   color: black;
@@ -43,6 +66,7 @@ nav a:active{
     color: black;
     text-decoration: underline;
 }
+
 /*FOOTER STYLES*/
 footer {
 	display: flex;
