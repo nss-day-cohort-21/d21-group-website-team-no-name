@@ -30,6 +30,42 @@ nav{
   padding: 0 10px;
 }
 
+
+/*History Styling*/
+
+#company-history{
+  padding: 2em;
+  margin: 2em;
+  border: 5px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+#address-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#map {
+   width: 60%;
+   height: 400px;
+   background-color: grey;
+   border: none;
+   border-radius: 25px;
+ }
+
+ /* Smaller screens stack in collumns */
+@media all and (max-width: 700px) {
+  #address-container {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+  #map {
+    width: 100%;
+  }
+}
+  
 /*  INDEX PAGE STYLES */
 
 .gem-info-container{
@@ -57,6 +93,7 @@ nav{
 .section-article h3{
   padding-bottom: 10px;
 }
+
 
 /*JOB LISTINGS STYLES*/
 .jobs-row {
