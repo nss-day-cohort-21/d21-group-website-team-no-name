@@ -277,11 +277,12 @@ img:hover {
   opacity: .5;
 }
 
-.emp-h1s  {
+.emp-h1  {
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-left: 10px;
 }
 
 .emp-list-flex-container {
