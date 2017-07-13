@@ -155,16 +155,28 @@ nav a:active{
 .jobs-listings-container{
   background-color: white;
 }
-.jobs-title{
-  padding: 50px 0;
-  margin: 0 auto;
-  width: 20%;
-  text-align: center;
+
+.jobs-info-container{ 
+  background-image: url("../images/employees.jpg");
+  background-size: 100%;
+  height: 495px;
+  display: table;
+  border-radius: 15px 15px 0 0;
+} 
+.jobs-info{ 
+  width: 55%;
+  float: right;
+  padding: 40px 40px 0; 
+  color: white;
+  line-height: 1.5em;
+  margin-top: 50px;
+  background-color: rgba(0,0,0, .4);
 }
 
 .jobs-row {
   display: flex;
   flex-direction: row;
+  
 }
 
 .jobs-col {
@@ -180,11 +192,6 @@ nav a:active{
 .jobs-side {
   width: 40%;
   margin-right: auto;
-}
-
-.jobs-img {
-  width: 80%;
-  margin-left: 10px;
 }
 
 .jobs-ul {
