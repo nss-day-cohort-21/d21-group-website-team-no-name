@@ -156,20 +156,23 @@ a:hover {
   opacity: .5;
 }
 
-
-.emp-h1,  {
+.emp-h1s  {
 
   display: flex;
+    flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .emp-list-flex-container {
 
-  padding-left: 40%;
+
+  /*padding-left: 40%;*/
   /*flex-basis: 30%;*/
   /*align-items: center;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: center;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .emp-name, .person-title, .person-email {
@@ -177,12 +180,18 @@ a:hover {
 }
 
 .slack-emp-list-img {
+    border-radius: 70%;
+    display: flex;
+    justify-items: center;
+    padding: 2% 30%;
+    width: 70px;
+    height: 70px;
 
-  border-radius: 70%;
-  padding: 2% 0%;
-  width:40%;
+}
 
-
+.teddyp {
+    font-size: 1.373rem;
+    padding-top: 5px;
 }
 
 
