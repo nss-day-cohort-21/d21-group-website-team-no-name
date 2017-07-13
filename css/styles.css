@@ -35,16 +35,24 @@ nav{
 #products-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 .cards {
-  padding: 20px;
-  margin: 2em;
+  padding: 0px;
+  margin: 1em;
   background-color: white;
   border-radius: 25px;
+  text-align: center;
 }
 
+.cards img{
+  max-width: 70%;
+}
 
+.card-details {
+  text-align: left;
+  margin: 5px 20px;
+}
 
 
 
