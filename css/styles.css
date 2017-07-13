@@ -9,7 +9,7 @@ body{
 }
 .main-container{
   /*max-width: 90%;*/
-  background-color: lightgray;
+  background-color: #f2f2f2;
   margin: 0 auto;
   display: flex;
   flex-flow: column wrap;
@@ -31,7 +31,7 @@ nav{
   background-color: white;
   border-bottom: 1px slategrey solid;
   margin: 0 auto;
-  padding: 20px 0 20px 0;
+  padding: 20px 10px 20px 0;
 }
 
 #last-nav{
@@ -60,6 +60,15 @@ nav a:hover{
 nav a:active{
     color: black;
     text-decoration: underline;
+}
+nav a {
+  padding: 4px 10px;
+}
+
+#current {
+  background-color: #6cc2a3;
+  border-radius: 15px;
+  padding: 4px 10px;
 }
 
 /*LOGO nav*/
