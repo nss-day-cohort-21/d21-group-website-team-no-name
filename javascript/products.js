@@ -5,7 +5,7 @@ let gems = [
     "shine": 8,
     "price": "110.50",
     "rarity": 7,
-    "images": "../images/sapphire.jpeg"
+    "images": "images/sapphire.jpeg"
   },
   {
     "name": "Bloodstone",
@@ -13,7 +13,7 @@ let gems = [
     "shine": 9,
     "price": "22.90",
     "rarity": 6,
-    "images": "../images/topaz.jpeg"
+    "images": "images/topaz.jpeg"
   },
   {
     "name": "Zircon",
@@ -21,7 +21,7 @@ let gems = [
     "shine": 70,
     "price": "1100",
     "rarity": 2,
-    "images": "../images/emerald.jpeg"
+    "images": "images/emerald.jpeg"
   },
   {
     "name": "Amethyst",
@@ -29,7 +29,7 @@ let gems = [
     "shine": 65,
     "price": "1100",
     "rarity": 2,
-    "images": "../images/amethyst.jpeg"
+    "images": "images/amethyst.jpeg"
   },
   {
     "name": "Apatite",
@@ -37,7 +37,7 @@ let gems = [
     "shine": 40,
     "price": "11.00",
     "rarity": 2,
-    "images": "../images/apatite.jpeg"
+    "images": "images/apatite.jpeg"
   },
   {
     "name": "Aquamarine",
@@ -45,7 +45,7 @@ let gems = [
     "shine": 3,
     "price": "15.00",
     "rarity": 2,
-    "images": "../images/aquamarine.jpeg"
+    "images": "images/aquamarine.jpeg"
   },
   {
     "name": "Citrine",
@@ -53,7 +53,7 @@ let gems = [
     "shine": 56,
     "price": "340",
     "rarity": 2,
-    "images": "../images/citrine.jpeg"
+    "images": "images/citrine.jpeg"
   },
   {
     "name": "Chrome Diopside",
@@ -61,7 +61,7 @@ let gems = [
     "shine": 20,
     "price": "100",
     "rarity": 2,
-    "images": "../images/chrome_diopside.jpeg"
+    "images": "images/chrome_diopside.jpeg"
   },
   {
     "name": "Ruby",
@@ -69,6 +69,6 @@ let gems = [
     "shine": 10,
     "price": "1200",
     "rarity": 2,
-    "images": "../images/ruby.jpeg"
+    "images": "images/ruby.jpeg"
   }
 ]
