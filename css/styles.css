@@ -272,7 +272,7 @@ footer h6 {
 
 /**** EMPLOYEE-LISTING STYLES********************************************************************/
 
-a:hover {
+img:hover {
 
   opacity: .5;
 }
@@ -280,7 +280,7 @@ a:hover {
 .emp-h1s  {
 
   display: flex;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -305,8 +305,8 @@ a:hover {
     display: flex;
     justify-items: center;
     padding: 2% 30%;
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
 
 }
 
