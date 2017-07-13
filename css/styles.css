@@ -34,6 +34,10 @@ nav{
   padding: 20px 10px 20px 0;
 }
 
+#last-nav{
+  padding-right: 40px;
+}
+
 .navbar-flex-container{
   display: flex;
   list-style-type: none;
@@ -56,6 +60,9 @@ nav a:hover{
 nav a:active{
     color: black;
     text-decoration: underline;
+}
+nav a {
+  padding: 4px 10px;
 }
 
 #current {
@@ -177,7 +184,11 @@ nav a:active{
   padding-bottom: 10px;
 }
 
-
+#featured-product{
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
 /*JOB LISTINGS STYLES*/
 
 .jobs-listings-container{
@@ -283,11 +294,12 @@ img:hover {
   opacity: .5;
 }
 
-.emp-h1s  {
+.emp-h1  {
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-left: 10px;
 }
 
 .emp-list-flex-container {
