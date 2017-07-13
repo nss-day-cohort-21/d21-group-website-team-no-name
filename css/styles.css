@@ -1,6 +1,7 @@
 html{ font-family: 'Roboto', 'Shrikhand', sans-serif;
 }
 /*CHANGE BODY COLOR BACK TO WHITE WHEN FINISHED*/
+/* MAIN STYLING */
 body{
   background-color: lightcoral;
 }
@@ -9,6 +10,16 @@ body{
   background-color: lightgray;
   margin: 0 auto;
 }
+
+.main-border{
+  padding: 2em;
+  margin: 2em;
+  /* border: 5px; */
+  border-radius: 15px;
+  background-color: white;
+}
+
+
 /* Navigation Styles */
 nav{
   background-color: white;
@@ -21,6 +32,22 @@ nav{
   align-items: center;
   margin: 0;
 }
+
+nav a:visited, a:link{
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+nav a:active{
+    color: black;
+    text-decoration: underline;
+}
+
 /*LOGO nav*/
 .item-1{
   margin-right: auto;
@@ -86,12 +113,21 @@ nav{
 }
   
 /*  INDEX PAGE STYLES */
+.main-index-border{
+   /* padding: 2em;  */
+  margin: 2em;
+  /* border: 5px; */
+  border-radius: 15px;
+  background-color: white;
+}
 
 .gem-info-container{
   background-image: url("../images/diamond2.jpg");
   background-size: 100%;
   height: 495px;
   display: table;
+  /* border: 5px; */
+  border-radius: 15px 15px 0 0;
 }
 
 .gem-info{ 
@@ -115,47 +151,60 @@ nav{
 
 
 /*JOB LISTINGS STYLES*/
+
+.jobs-listings-container{
+  background-color: white;
+}
+.jobs-title{
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 20%;
+  text-align: center;
+}
+
 .jobs-row {
   display: flex;
   flex-direction: row;
 }
 
 .jobs-col {
-  margin: 2em;
+  margin: 10px;
+  width: 200px;
 }
 
 .jobs-main {
-  width: 80%;
+  width: 60%;
+  margin-left: auto;
 }
 
 .jobs-side {
-  width: 20%;
+  width: 40%;
+  margin-right: auto;
 }
 
 .jobs-img {
-  margin: 1em;
-  width: 50%;
+  width: 80%;
+  margin-left: 10px;
 }
 
 .jobs-ul {
   list-style-type: none;
 }
 
-nav a:visited, a:link{
+.jobs-ul a:visited, a:link{
   text-decoration: none;
   color: black;
 }
 
-nav a:hover{
+.jobs-ul a:hover{
     color: black;
     text-decoration: underline;
 }
 
-nav a:active{
+.jobs-ul a:active{
     color: black;
     text-decoration: underline;
 }
-
 /*FOOTER STYLES*/
 footer {
 	display: flex;
@@ -166,7 +215,31 @@ footer {
 i {
 	display: inline;
 }
+.copyright {
+  width: 50%;
+}
 
+.social {
+  width: 50%;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer h6 {
+  font-size: 1em;
+  margin-left: 2em;
+}
+
+.social img {
+  width: 40%;
+}
+
+#pinterest{
+  padding-top: 15px;
+}
 
 /**** EMPLOYEE-LISTING STYLES********************************************************************/
 
@@ -190,8 +263,8 @@ a:hover {
   /*align-items: center;*/
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-    flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .emp-name, .person-title, .person-email {
@@ -215,26 +288,3 @@ a:hover {
 
 
 /***********************************************************************************************/
-
-.copyright {
-  width: 50%;
-}
-
-.social {
-  width: 50%;
-}
-
-footer ul {
-  display: flex;
-  list-style-type: none;
-}
-
-footer h6 {
-  font-size: 1em;
-  margin-left: 2em;
-}
-
-.social img {
-  width: 40%;
-}
-
