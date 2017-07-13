@@ -30,6 +30,25 @@ nav{
   padding: 0 10px;
 }
 
+/*Product Page Styling*/
+
+#products-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.cards {
+  padding: 20px;
+  margin: 2em;
+  background-color: white;
+  border-radius: 25px;
+}
+
+
+
+
+
+
 
 /*History Styling*/
 
